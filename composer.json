@@ -2,12 +2,16 @@
     "name": "wowu/wordpress-starter",
     "description": "Basic setup with WordPress as dependency.",
     "type": "project",
-    "license": "MIT",
     "authors": [
         {
             "name": "Karol Musur",
             "email": "kamusur@gmail.com"
         }
     ],
-    "require": {}
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+    "require": {
+        "johnpbloch/wordpress": "^4.8"
+    }
 }
